@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__navegacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header__navegacao__lista-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.header__navegacao__hero img {
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+    height: 400px;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__sobre {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main__titulo__principal {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main__sobre p {
+    line-height: 1.5;
+}
+
+.main__cards__titulo,
+.main__acoes__titulo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main__cards__lista {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main__cards__card {
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.main__cards__card__legenda {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.main__cards__card img {
+    width: 100%;
+}
+
+.footer {
+    margin-top: 50px;
+    background: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__lista__redes {
+    margin-bottom: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.main__acoes__row {
+    display: flex;
+    align-items: center;
+}
+
+.main__acoes__row p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.main__acoes__row img {
+    width: 50%;
+}
+
+.footer__lista__redes i {
+    cursor: pointer;
+}
+
+.footer__lista__redes i:hover {
+    color: antiquewhite;
+    text-shadow: 0 0 4px green;
+}
+
+.footer__lista__texto {
+    text-align: center;
+}
